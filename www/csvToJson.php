@@ -50,5 +50,5 @@ $fh = fopen($jsonFile, 'w') or die("can't open file");
 fwrite($fh, $json);
 fclose($fh);
 
-print_r($products);
+//print_r($products);
 //echo $json;
